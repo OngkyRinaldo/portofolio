@@ -256,71 +256,87 @@
                 <section id="contact">
                     <div class="container">
                         <div class="row">
-                            <div class="col">
-                                <h2 class="contact my-3 text-center">
-                                    Contact
-                                </h2>
+                            <div class="col-md-12 col-12 my-3">
+                                <h2 class="contact text-center">Contact Me</h2>
                             </div>
-                            <div
-                                class="row justify-content-center fs-5 text-center"
-                            >
-                                <div class="col">
-                                    <ul
-                                        class="list-group list-group-horizontal justify-content-center"
+                            <div class="col-md-6 col-6">
+                                <h5 class="text-muted fs-3">My Phone Number</h5>
+                                <p class="fs-1 contact-me">
+                                    <a
+                                        href="https://wa.me/6281245461412?text=Hello"
+                                        target="_blank"
+                                        ><u>+6281245461412</u></a
                                     >
-                                        <li class="nav-item">
-                                            <a
-                                                class="nav-link"
-                                                href="https://wa.me/6281245461412?text=Hello"
-                                                target="_blank"
-                                                ><i
-                                                    class="fa-brands fa-whatsapp fs-4"
-                                                ></i
-                                            ></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                                class="nav-link"
-                                                href="mailto:ongkyrinaldo2@gmail.com?subject = Feedback&body = Message"
-                                                target="_blanks"
-                                                target="_blank"
-                                                ><i
-                                                    class="fa-solid fa-envelope fs-4"
-                                                ></i
-                                            ></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                                class="nav-link"
-                                                href="https://github.com/OngkyRinaldo"
-                                                target="_blank"
-                                                ><i
-                                                    class="fa-brands fa-github fs-4"
-                                                ></i
-                                            ></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                                class="nav-link"
-                                                href="https://www.linkedin.com/in/ongkyrinaldo/"
-                                                target="_blank"
-                                                ><i
-                                                    class="fa-brands fa-linkedin fs-4"
-                                                ></i
-                                            ></a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="nav-link"
-                                                href="https://twitter.com/OngkyRinaldo"
-                                                target="_blank"
-                                                ><i
-                                                    class="fa-brands fa-twitter fs-4"
-                                                ></i
-                                            ></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                </p>
+                                <h5 class="text-muted fs-5 mt-5">My e-Mail</h5>
+                                <p class="fs-2 contact-me">
+                                    <a
+                                        href="mailto:ongkyrinaldo2@gmail.com?subject = Feedback&body = Message"
+                                        target="_blanks"
+                                        ><u>ongkyrinaldo2@gmail.com</u></a
+                                    >
+                                </p>
+                                <h5 class="text-muted fs-5 mt-5">
+                                    Social Media
+                                </h5>
+                                <p class="fs-2 contact-me">
+                                  <ul  class="list-group list-group-horizontal ">
+                                    <li class="nav-item">  <a
+                                        class="nav-link"
+                                        href="https://www.linkedin.com/in/ongkyrinaldo/"
+                                        target="_blank"
+                                        ><i
+                                            class="fa-brands fa-linkedin fs-4"
+                                        ></i
+                                    ></a></li>
+                                    <li>
+                                        <a
+                                            class="nav-link"
+                                            href="https://twitter.com/OngkyRinaldo"
+                                            target="_blank"
+                                            ><i
+                                                class="fa-brands fa-twitter fs-4"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="https://github.com/OngkyRinaldo"
+                                            target="_blank"
+                                            ><i
+                                                class="fa-brands fa-github fs-4"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                  </ul>
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-6">
+                                <div class="alert alert-success alert-dismissible fade show text-center d-none form-alert" role="alert">
+                                    <strong>Thank you</strong> Your message has been sent
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                  </div>
+                                <form name="ongky rinaldo - contact form">
+                                    <div class="mb-3 te">
+                                      <label for="name" class="form-label">Full Name</label>
+                                      <input type="text" class="form-control" id="name" name="name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="email" class="form-label">Email</label>
+                                      <input type="email" class="form-control" id="email" name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+                                      </div>
+                                    <button type="submit" class="btn btn-dark btn-send">Send</button>
+
+                                    <button class="btn btn-dark btn-loading d-none " type="button" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        Loading...
+                                      </button>
+                                  </form>
                             </div>
                         </div>
                     </div>
@@ -347,5 +363,26 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"
         ></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzCWh9YCoJLH7NIRvJW0H9JhRlCQmxSZMF5cWANq9ypekZPWMyN_uacSkfZaGnUjQ-Q/exec'
+            const form = document.forms['ongky rinaldo - contact form'];
+            const btnSend = document.querySelector('.btn-send');
+            const btnLoading = document.querySelector('.btn-loading');
+            const formAlert = document.querySelector('.form-alert');
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault();
+              btnLoading.classList.toggle('d-none');
+              btnSend.classList.toggle('d-none');
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{ 
+                    btnLoading.classList.toggle('d-none');
+              btnSend.classList.toggle('d-none');
+              formAlert.classList.toggle('d-none');
+              form.reset();
+                    console.log('Success!', response)})
+                .catch(error => console.error('Error!', error.message));
+            })
+          </script>
     </body>
 </html>

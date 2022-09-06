@@ -97,6 +97,9 @@ header {
 .ul-social-media li {
     display: inline;
 }
+.contact-me a {
+    color: #000;
+}
 /* end contact */
 
 /* footer */
@@ -105,3 +108,12 @@ footer {
     background-color: #f0efe9;
 }
 /* end footer */
+
+/* media screen */
+@media screen and (max-width: 994px) {
+    .contact-me a {
+        font-size: 13px;
+    }
+}
+
+/* media screen */
