@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 header {
@@ -59,20 +60,20 @@ header {
     color: #fff;
 }
 
-.figure-project {
-    background-color: #439f8f;
-}
-
 .img-project {
-    height: 500px;
+    height: 200px;
+    width: 100%;
 }
 
 .project-title {
     color: #fff;
 }
 
-.project-descriptions {
-    color: #fff;
+.project-title:hover {
+    border-style: none;
+    border-top-style: solid;
+    border-top-color: #439f8f;
+    font-weight: bold;
 }
 
 .link-code {
