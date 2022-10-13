@@ -76,3 +76,12 @@ main #contact .contact-me .list-group {
 main #contact .contact-me .list-group li {
   display: inline;
 }
+@media screen and (max-width: 994px) {
+  main .contact-me a {
+    font-size: 13px;
+  }
+}
+
+footer {
+  background-color: #f0efe9;
+}
