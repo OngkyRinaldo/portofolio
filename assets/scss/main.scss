@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+$bg-color: #f0efe9;
+$color: #000;
+$color-white: #fff;
+$font-weight: bold;
+
+header {
+    background-color: $bg-color;
+
+    .nav-item a {
+        color: $color;
+    }
+    .nav-item a:hover {
+        font-weight: $font-weight;
+        color: $color;
+    }
+
+    .jumbotron {
+        padding: 2rem 1rem;
+        font-weight: 700;
+    }
+
+    .jumbotron img {
+        width: 200px;
+        border-color: $color;
+    }
+}
+
+main {
+    #about {
+        background-color: $color;
+
+        h2 {
+            color: $color-white;
+        }
+
+        .descriptions {
+            color: #b7b7b7;
+        }
+    }
+
+    #projects {
+        background-color: $color;
+
+        h2 {
+            color: $color-white;
+        }
+
+        .project {
+            img {
+                height: 200px;
+                width: 100%;
+            }
+
+            h3 {
+                color: $color-white;
+            }
+
+            h3:hover {
+                border-style: none;
+                border-top-style: solid;
+                border-top-color: #439f8f;
+                font-weight: bold;
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-white;
+            }
+        }
+    }
+
+    #contact {
+        background-color: $bg-color;
+
+        h2 {
+            color: $color;
+        }
+
+        .contact-me {
+            a {
+                color: $color;
+            }
+        }
+
+        .contact-me {
+            a {
+                color: $color;
+            }
+
+            .list-group {
+                list-style-type: none;
+
+                li {
+                    display: inline;
+                }
+            }
+        }
+    }
+}

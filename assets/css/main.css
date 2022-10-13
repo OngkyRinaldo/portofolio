@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+header {
+  background-color: #f0efe9;
+}
+header .nav-item a {
+  color: #000;
+}
+header .nav-item a:hover {
+  font-weight: bold;
+  color: #000;
+}
+header .jumbotron {
+  padding: 2rem 1rem;
+  font-weight: 700;
+}
+header .jumbotron img {
+  width: 200px;
+  border-color: #000;
+}
+
+main #about {
+  background-color: #000;
+}
+main #about h2 {
+  color: #fff;
+}
+main #about .descriptions {
+  color: #b7b7b7;
+}
+main #projects {
+  background-color: #000;
+}
+main #projects h2 {
+  color: #fff;
+}
+main #projects .project img {
+  height: 200px;
+  width: 100%;
+}
+main #projects .project h3 {
+  color: #fff;
+}
+main #projects .project h3:hover {
+  border-style: none;
+  border-top-style: solid;
+  border-top-color: #439f8f;
+  font-weight: bold;
+}
+main #projects .project a {
+  text-decoration: none;
+  color: #fff;
+}
+main #contact {
+  background-color: #f0efe9;
+}
+main #contact h2 {
+  color: #000;
+}
+main #contact .contact-me a {
+  color: #000;
+}
+main #contact .contact-me a {
+  color: #000;
+}
+main #contact .contact-me .list-group {
+  list-style-type: none;
+}
+main #contact .contact-me .list-group li {
+  display: inline;
+}
